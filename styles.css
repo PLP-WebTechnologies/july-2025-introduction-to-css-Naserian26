@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #16181a;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;               /* padding pushes text inward */
+  margin-bottom: 20px;         /* margin separates header from nav */
+  border: 5px solid #2e7d32;   /* thick border */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px dashed #aaa;     /* dashed border for clarity */
+  text-align: center;
+}
+.navbar a {
+  margin: 0 10px;              /* margin between links */
+  padding: 5px 10px;           /* padding inside links */
+  border: 1px solid #4CAF50;   /* small border */
+  background-color: #fff;
+  text-decoration: none;
+  color: #333;
+}
+.navbar a:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Main container */
+.container {
+  display: grid;
+  gap: 20px;
+}
+
+/* Cards - demonstrating different box model effects */
+.card {
+  padding: 15px;
+  margin: 10px 0;
+  border: 3px solid #333;
+  border-radius: 5px;
+}
+
+/* Individual backgrounds to visualize boundaries */
+.card-1 {
+  background-color: #ffebee; /* light red */
+}
+.card-2 {
+  background-color: #e8f5e9; /* light green */
+  padding: 40px; /* exaggerated padding */
+}
+.card-3 {
+  background-color: #e3f2fd; /* light blue */
+  border: 8px solid #1565c0; /* thick colored border */
+}
+.card-4 {
+  background-color: #fff8e1; /* light yellow */
+}
+
+/* Button */
+.btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 3px solid #ff9800;
+  background-color: #ffcc80;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ffa726;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  border-top: 4px solid #4CAF50;
+}
